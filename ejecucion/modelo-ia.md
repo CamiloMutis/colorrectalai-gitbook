@@ -7,17 +7,25 @@
 ## Pipeline de inteligencia artificial
 
 ```mermaid
-flowchart LR
-    A[Control de calidad<br/>de imágenes] --> B[Desidentificación<br/>si corresponde]
-    B --> C[Normalización]
-    C --> D[Redimensionamiento]
-    D --> E[Delimitación<br/>de ROI]
-    E --> F[Aumento<br/>de datos]
-    F --> G[Partición<br/>por paciente]
-    G --> H[Entrenamiento]
-    H --> I[Validación]
-    I --> J[Prueba]
-    J --> K[Explicabilidad y<br/>registro de métricas]
+flowchart TB
+    subgraph P1 [1. Preparación de datos]
+        direction LR
+        A[Control de calidad<br/>de imágenes] --> B[Desidentificación<br/>si corresponde]
+        B --> C[Normalización]
+        C --> D[Redimensionamiento]
+    end
+    subgraph P2 [2. Preparación para el entrenamiento]
+        direction LR
+        E[Delimitación<br/>de ROI] --> F[Aumento<br/>de datos]
+        F --> G[Partición<br/>por paciente]
+    end
+    subgraph P3 [3. Modelo y evaluación]
+        direction LR
+        H[Entrenamiento] --> I[Validación]
+        I --> J[Prueba]
+        J --> K[Explicabilidad y<br/>registro de métricas]
+    end
+    P1 --> P2 --> P3
 ```
 
 ## Modelo baseline

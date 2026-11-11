@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ColorrectalAI — Vista previa</title>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<style>
+  :root {
+    --bg: #ffffff; --side: #f7f8fa; --text: #1f2933; --muted: #6b7785; --line: #e4e7eb;
+    --accent: #0b6e8f; --accent-bg: #e6f3f7;
+    --info: #2563eb; --info-bg: #eff5ff; --success: #15803d; --success-bg: #ecfdf3;
+    --warning: #b45309; --warning-bg: #fff8eb; --danger: #b91c1c; --danger-bg: #fef2f2;
+    --code: #f3f4f6;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); }
+  header { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 16px; height: 56px; padding: 0 20px; border-bottom: 1px solid var(--line); background: var(--bg); }
+  header .logo { font-weight: 700; font-size: 17px; color: var(--accent); white-space: nowrap; }
+  header .badge { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; white-space: nowrap; }
+  header input { margin-left: auto; width: 260px; max-width: 45vw; padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; font: inherit; }
+  #menuBtn { display: none; border: 1px solid var(--line); background: var(--bg); border-radius: 6px; padding: 4px 10px; font: inherit; }
+  .layout { display: grid; grid-template-columns: 290px minmax(0, 1fr) 220px; min-height: calc(100vh - 56px); }
+  nav#side { background: var(--side); border-right: 1px solid var(--line); padding: 16px 10px 40px; position: sticky; top: 56px; height: calc(100vh - 56px); overflow-y: auto; }
+  nav#side .group { margin: 18px 10px 6px; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  nav#side a { display: block; padding: 5px 10px; border-radius: 6px; color: var(--text); text-decoration: none; font-size: 14px; }
+  nav#side a:hover { background: #eceff3; }
+  nav#side a.active { background: var(--accent-bg); color: var(--accent); font-weight: 600; }
+  nav#side .child a { padding-left: 26px; font-size: 13.5px; }
+  nav#side a.hidden, nav#side .child.hidden { display: none; }
+  main { padding: 32px 48px 80px; max-width: 920px; width: 100%; }
+  main h1 { font-size: 30px; line-height: 1.25; margin: 0 0 6px; }
+  main .desc { color: var(--muted); font-size: 16px; margin: 0 0 22px; }
+  main h2 { font-size: 22px; margin: 34px 0 10px; padding-top: 6px; }
+  main h3 { font-size: 17px; margin: 24px 0 8px; }
+  main a { color: var(--accent); }
+  main img { max-width: 100%; border: 1px solid var(--line); border-radius: 8px; margin: 8px 0; }
+  main table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14px; display: block; overflow-x: auto; }
+  main th, main td { border: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
+  main th { background: var(--side); font-weight: 600; }
+  main code { background: var(--code); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+  main pre { background: var(--code); padding: 14px; border-radius: 8px; overflow-x: auto; font-size: 13px; line-height: 1.45; }
+  main pre code { background: none; padding: 0; }
+  main blockquote { margin: 14px 0; padding: 4px 16px; border-left: 4px solid var(--line); color: var(--muted); }
+  main ul.contains-task-list, main li.task-list-item { list-style: none; }
+  main li.task-list-item input { margin-right: 8px; }
+  .hint { border-left: 4px solid; border-radius: 6px; padding: 10px 16px; margin: 16px 0; }
+  .hint p { margin: 6px 0; }
+  .hint-info { border-color: var(--info); background: var(--info-bg); }
+  .hint-success { border-color: var(--success); background: var(--success-bg); }
+  .hint-warning { border-color: var(--warning); background: var(--warning-bg); }
+  .hint-danger { border-color: var(--danger); background: var(--danger-bg); }
+  .tabs { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; }
+  .tabs .bar { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--line); background: var(--side); border-radius: 8px 8px 0 0; }
+  .tabs .bar button { border: 0; background: none; padding: 9px 16px; font: inherit; cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; }
+  .tabs .bar button.on { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+  .tabs .panel { padding: 4px 18px 10px; display: none; }
+  .tabs .panel.on { display: block; }
+  pre.mermaid { background: none; text-align: center; }
+  .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 56px; }
+  .pager a { flex: 1; border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; text-decoration: none; color: var(--text); }
+  .pager a small { display: block; color: var(--muted); }
+  .pager a.next { text-align: right; }
+  aside#toc { padding: 32px 16px; position: sticky; top: 56px; height: calc(100vh - 56px); overflow-y: auto; font-size: 13px; }
+  aside#toc .t { font-weight: 600; color: var(--muted); margin-bottom: 8px; }
+  aside#toc a { display: block; color: var(--muted); text-decoration: none; padding: 3px 0; }
+  aside#toc a.h3 { padding-left: 12px; }
+  aside#toc a:hover { color: var(--accent); }
+  .error { color: var(--danger); }
+  @media (max-width: 1100px) { .layout { grid-template-columns: 270px minmax(0, 1fr); } aside#toc { display: none; } }
+  @media (max-width: 760px) {
+    #menuBtn { display: inline-block; }
+    header .badge { display: none; }
+    header input { width: 150px; }
+    .layout { grid-template-columns: minmax(0, 1fr); }
+    nav#side { display: none; position: fixed; inset: 56px 0 0 0; z-index: 4; height: auto; }
+    nav#side.open { display: block; }
+    main { padding: 22px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <button id="menuBtn" aria-label="Menú">☰</button>
+  <span class="logo">ColorrectalAI</span>
+  <span class="badge">Vista previa local</span>
+  <input id="search" type="search" placeholder="Buscar página…">
+</header>
+<div class="layout">
+  <nav id="side"></nav>
+  <main id="content"><p>Cargando…</p></main>
+  <aside id="toc"></aside>
+</div>
+<script>
+const ROOT = '../';
+let pages = [];   // orden plano para Anterior / Siguiente
+mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
+
+function resolve(base, rel) {
+  return new URL(rel, 'http://x/' + base).pathname.slice(1);
+}
+
+async function loadSummary() {
+  const txt = await (await fetch(ROOT + 'SUMMARY.md', { cache: 'no-store' })).text();
+  const nav = document.getElementById('side');
+  let html = '';
+  for (const line of txt.split('\n')) {
+    const g = line.match(/^##\s+(.*)/);
+    const l = line.match(/^(\s*)\*\s+\[(.+?)\]\((.+?)\)/);
+    if (g) html += `<div class="group">${g[1]}</div>`;
+    else if (l) {
+      const child = l[1].length >= 2;
+      pages.push({ title: l[2], path: l[3] });
+      const a = `<a href="#/${l[3]}" data-path="${l[3]}">${l[2]}</a>`;
+      html += child ? `<div class="child">${a}</div>` : a;
+    }
+  }
+  nav.innerHTML = html;
+}
+
+function preprocess(md, path) {
+  const stash = [];
+  const put = h => `\n\n<!--PH${stash.push(h) - 1}-->\n\n`;
+  let desc = '';
+  md = md.replace(/^---\n([\s\S]*?)\n---\n/, (m, fm) => {
+    const d = fm.match(/description:\s*>?-?\s*([\s\S]*)/);
+    if (d) desc = d[1].replace(/\s+/g, ' ').trim();
+    return '';
+  });
+  md = md.replace(/{%\s*tabs\s*%}([\s\S]*?){%\s*endtabs\s*%}/g, (m, inner) => {
+    const tabs = [...inner.matchAll(/{%\s*tab\s+title="(.*?)"\s*%}([\s\S]*?){%\s*endtab\s*%}/g)];
+    const bar = tabs.map((t, i) => `<button class="${i ? '' : 'on'}" data-i="${i}">${t[1]}</button>`).join('');
+    const panels = tabs.map((t, i) => `<div class="panel ${i ? '' : 'on'}">${render(t[2], path)}</div>`).join('');
+    return put(`<div class="tabs"><div class="bar">${bar}</div>${panels}</div>`);
+  });
+  md = md.replace(/{%\s*hint\s+style="(\w+)"\s*%}([\s\S]*?){%\s*endhint\s*%}/g,
+    (m, style, inner) => put(`<div class="hint hint-${style}">${render(inner, path)}</div>`));
+  md = md.replace(/```mermaid\n([\s\S]*?)```/g, (m, code) => put(`<pre class="mermaid">${code.replace(/</g, '&lt;')}</pre>`));
+  return { md, stash, desc };
+}
+
+function render(md, path) {
+  const { md: pre, stash } = preprocess(md, path);
+  let html = marked.parse(pre, { gfm: true });
+  return html.replace(/<!--PH(\d+)-->/g, (m, i) => stash[+i]);
+}
+
+function fixLinks(el, path) {
+  el.querySelectorAll('img').forEach(img => {
+    const src = img.getAttribute('src');
+    if (src && !/^https?:/.test(src)) img.src = ROOT + resolve(path, src);
+  });
+  el.querySelectorAll('a[href]').forEach(a => {
+    const href = a.getAttribute('href');
+    if (href.startsWith('mailto:')) { a.replaceWith(document.createTextNode(a.textContent)); return; }
+    if (/^https?:/.test(href)) { a.target = '_blank'; a.rel = 'noopener'; return; }
+    if (href.startsWith('#')) return;
+    const [file, anchor] = href.split('#');
+    if (file.endsWith('.md')) a.href = '#/' + resolve(path, file) + (anchor ? '#' + anchor : '');
+  });
+}
+
+function slug(s) {
+  return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-');
+}
+
+async function show() {
+  const hash = decodeURIComponent(location.hash.slice(2)) || 'README.md';
+  const [path, anchor] = hash.split('#');
+  const main = document.getElementById('content');
+  let md;
+  try {
+    const r = await fetch(ROOT + path, { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    md = await r.text();
+  } catch (e) {
+    main.innerHTML = `<p class="error">No se encontró la página <code>${path}</code>.</p>`;
+    return;
+  }
+  const { md: pre, stash, desc } = preprocess(md, path);
+  let html = marked.parse(pre, { gfm: true }).replace(/<!--PH(\d+)-->/g, (m, i) => stash[+i]);
+  if (desc) html = html.replace(/(<\/h1>)/, `$1<p class="desc">${desc}</p>`);
+  const i = pages.findIndex(p => p.path === path);
+  const prev = pages[i - 1], next = pages[i + 1];
+  html += `<div class="pager">${prev ? `<a href="#/${prev.path}"><small>Anterior</small>${prev.title}</a>` : '<span></span>'}${next ? `<a class="next" href="#/${next.path}"><small>Siguiente</small>${next.title}</a>` : ''}</div>`;
+  main.innerHTML = html;
+  fixLinks(main, path);
+  main.querySelectorAll('.tabs').forEach(t => t.querySelectorAll('.bar button').forEach(b => b.onclick = () => {
+    t.querySelectorAll('.bar button, .panel').forEach(x => x.classList.remove('on'));
+    b.classList.add('on'); t.querySelectorAll('.panel')[+b.dataset.i].classList.add('on');
+  }));
+  const toc = document.getElementById('toc');
+  const hs = [...main.querySelectorAll('h2, h3')];
+  hs.forEach(h => h.id = slug(h.textContent));
+  toc.innerHTML = hs.length ? '<div class="t">En esta página</div>' + hs.map(h => `<a class="${h.tagName.toLowerCase()}" href="javascript:void(0)" data-id="${h.id}">${h.textContent}</a>`).join('') : '';
+  toc.querySelectorAll('a').forEach(a => a.onclick = () => document.getElementById(a.dataset.id).scrollIntoView({ behavior: 'smooth' }));
+  document.querySelectorAll('nav#side a').forEach(a => a.classList.toggle('active', a.dataset.path === path));
+  document.getElementById('side').classList.remove('open');
+  document.title = (pages[i] ? pages[i].title + ' — ' : '') + 'ColorrectalAI';
+  try { await mermaid.run({ nodes: main.querySelectorAll('pre.mermaid') }); } catch (e) { console.warn(e); }
+  if (anchor && document.getElementById(anchor)) document.getElementById(anchor).scrollIntoView();
+  else window.scrollTo(0, 0);
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  const q = slug(e.target.value);
+  document.querySelectorAll('nav#side a').forEach(a => {
+    const hide = q && !slug(a.textContent).includes(q);
+    (a.parentElement.classList.contains('child') ? a.parentElement : a).classList.toggle('hidden', hide);
+  });
+});
+document.getElementById('menuBtn').onclick = () => document.getElementById('side').classList.toggle('open');
+window.addEventListener('hashchange', show);
+loadSummary().then(show);
+</script>
+</body>
+</html>

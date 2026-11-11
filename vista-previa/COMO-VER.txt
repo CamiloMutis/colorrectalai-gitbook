@@ -1,0 +1,36 @@
+VISTA PREVIA LOCAL DEL GITBOOK - ColorrectalAI
+================================================
+
+Sirve para ver la documentación en el navegador sin publicarla en gitbook.com.
+Solo necesitas Git y Python 3.
+
+1. Clonar el repositorio (solo la primera vez):
+
+     git clone https://github.com/CamiloMutis/colorrectalai-gitbook.git
+     cd colorrectalai-gitbook
+
+   Si ya lo tienes clonado, entra a la carpeta y trae los cambios:
+
+     git pull
+
+2. Encender el servidor local (desde la carpeta raíz del repositorio):
+
+     Windows:        python -m http.server 8800
+     Linux / macOS:  python3 -m http.server 8800
+
+   Deja esa terminal abierta mientras ves la documentación.
+
+3. Abrir en el navegador:
+
+     http://localhost:8800/vista-previa/
+
+4. Para apagarlo: en la terminal presiona Ctrl + C.
+
+Notas
+-----
+- Necesitas internet: la página descarga dos librerías (marked y mermaid)
+  para mostrar el texto y los diagramas.
+- Si cambias un archivo .md, recarga la página para ver el cambio.
+- Si el puerto 8800 está ocupado, usa otro número (por ejemplo 8801) en los
+  pasos 2 y 3.
+- Es una aproximación: el aspecto final lo da GitBook al publicarlo.
