@@ -11,7 +11,7 @@ El PMI define el proceso *Cerrar el Proyecto o Fase* como la finalización de to
 ## Contenido previsto
 
 * [ ] Estado final de los entregables E01–E09 y C-01 a C-30
-* [ ] Cumplimiento de los criterios de éxito del [Acta de constitución](../inicio/acta-constitucion.md)
+* [ ] Cumplimiento de los criterios de éxito del [Acta de constitución](../inicio/acta-inicio.md)
 * [ ] Requisitos Must verificados (hito 026, «Listo para cerrar»)
 * [ ] Resumen de [lecciones aprendidas](lecciones-aprendidas.md)
 * [ ] Aceptación del Propietario del Proyecto y firmas

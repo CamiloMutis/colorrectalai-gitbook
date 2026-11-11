@@ -1,4 +1,10 @@
-# Plan de calidad y métricas
+# Plan de gestión de la calidad
+
+{% hint style="success" %}
+**Estado: Terminado** · ID: **C-10** · Hito 008 · Entregado: **18 oct 2026** · Versión: v1.0 · Responsable: Juan Fernando Sánchez
+{% endhint %}
+
+Criterios para comprobar que el sistema y el modelo cumplen los objetivos: funcionamiento del software (carga, procesamiento, detección, interfaz y registro), métricas del modelo, separación correcta de entrenamiento/validación/prueba, tipos de prueba y evaluación reproducible. El documento completo está adjunto en Trello, lista **Planeación**.
 
 Metas y tolerancias de calidad del producto definidas en el Plan de Gestión de la Calidad V1.0. Las mide el Tester (QA) según la frecuencia de cada métrica.
 

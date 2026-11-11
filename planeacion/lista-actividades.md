@@ -1,6 +1,10 @@
-# Plan de tareas (EDT)
+# Lista de actividades
 
-Entregables de gestión **C-01 a C-30**, organizados por fase PMBOK y fase TSP. Estado según el plan de tareas al 23/10/2026; se actualiza cada semana.
+{% hint style="success" %}
+**Estado: Terminado** · ID: **C-07** · Hito 006 · Entregado: **11 oct 2026** · Responsable: Alejandro Guzmán
+{% endhint %}
+
+Entregable 2.1 del Plan de Gestión del Cronograma. Actividades **C-01 a C-30** por fase PMBOK, con su responsable y estado actual (se actualiza cada semana con el plan de tareas TSP).
 
 ## Inicio
 

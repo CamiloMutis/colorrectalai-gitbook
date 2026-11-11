@@ -1,6 +1,10 @@
-# Acta de constitución
+# Acta de inicio
 
-El Acta de Constitución (plantilla PM² v3.0.1) fue aprobada por el Propietario del Proyecto el **13 de septiembre de 2026** (hito 002).
+{% hint style="success" %}
+**Estado: Terminado** · ID: **C-01** · Hito 002 · Versión vigente: **v1.0 corregida (04-10-2026)** · Responsable: System Force
+{% endhint %}
+
+Acta de Constitución del Proyecto (plantilla PM² OPM2-03 v3.0.1). Fue aprobada por el Propietario del Proyecto (hito 002, 13 sep 2026) y luego ajustada; la [versión corregida](../trazabilidad/acta-inicio-corregida.md) está en Trello. Los riesgos del acta (sección 3.8) están en el [Plan para la dirección del proyecto](../planeacion/plan-direccion.md#riesgos).
 
 ## Declaración del alcance
 

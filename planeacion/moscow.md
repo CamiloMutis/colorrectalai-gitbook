@@ -1,4 +1,8 @@
-# Priorización MoSCoW
+# Diagrama MoSCoW
+
+{% hint style="success" %}
+**Estado: Terminado** · Versión: **v2** · Cargado en Trello: 18 oct 2026 · Responsable: System Force
+{% endhint %}
 
 Los requisitos se priorizaron con la técnica **MoSCoW** a partir del nivel de prioridad de la Matriz de Trazabilidad de Requisitos (v1.0).
 

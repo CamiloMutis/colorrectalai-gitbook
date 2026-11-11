@@ -14,17 +14,17 @@ Los antecedentes de ColorrectalAI se agrupan en antecedentes científicos sobre 
 
 **Polyp Segmentation Tool** es un proyecto de código abierto orientado a la segmentación de pólipos en imágenes de colonoscopia. Usa el dataset **Kvasir-SEG** y un modelo basado en **U-Net** implementado con TensorFlow, e incorpora una aplicación web en **Streamlit** desde la cual el usuario carga imágenes, las procesa con el modelo y visualiza las máscaras de segmentación.
 
-![Figura 1. Interfaz de Polyp Segmentation Tool. Fuente: TimKong21, GitHub.](../.gitbook/assets/fig1-polyp-segmentation-tool.jpg)
+![Figura 1. Interfaz de Polyp Segmentation Tool. Fuente: TimKong21, GitHub.](../../.gitbook/assets/fig1-polyp-segmentation-tool.jpg)
 
 Su arquitectura sigue las etapas de preparación y preprocesamiento de imágenes, procesamiento mediante U-Net y presentación de resultados en la interfaz web. Permite procesar varias imágenes y descargar las máscaras; el modelo entrenado se almacena externamente y se carga cuando es necesario.
 
-![Figura 2. Arquitectura U-Net. Fuente: Ronneberger et al. (2015).](../.gitbook/assets/fig2-arquitectura-unet.jpg)
+![Figura 2. Arquitectura U-Net. Fuente: Ronneberger et al. (2015).](../../.gitbook/assets/fig2-arquitectura-unet.jpg)
 
 Este proyecto es relevante para ColorrectalAI porque demuestra una forma concreta de integrar un modelo de segmentación de imágenes médicas con una interfaz de usuario.
 
-![Figura 3. Resultados de segmentación: original, máscara real y máscara predicha. Fuente: TimKong21, GitHub.](../.gitbook/assets/fig3-resultados-segmentacion.jpg)
+![Figura 3. Resultados de segmentación: original, máscara real y máscara predicha. Fuente: TimKong21, GitHub.](../../.gitbook/assets/fig3-resultados-segmentacion.jpg)
 
-![Figura 4. Entrenamiento del modelo: exactitud y pérdida. Fuente: TimKong21, GitHub.](../.gitbook/assets/fig4-entrenamiento.jpg)
+![Figura 4. Entrenamiento del modelo: exactitud y pérdida. Fuente: TimKong21, GitHub.](../../.gitbook/assets/fig4-entrenamiento.jpg)
 
 ## Antecedentes metodológicos
 

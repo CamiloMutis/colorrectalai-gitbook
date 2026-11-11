@@ -1,6 +1,10 @@
-# Requisitos y trazabilidad
+# ERS según la norma ISO/IEC/IEEE 29148-2018
 
-La ERS del proyecto (documento de requisitos ISO/IEC/IEEE 29148, entregable C-12) define **27 requisitos**: 16 funcionales (RF) y 11 no funcionales (RNF). Cada uno está trazado a una prioridad MoSCoW, un entregable y un caso de prueba.
+{% hint style="success" %}
+**Estado: Terminado** · ID: **C-12** · Entregado: **18 oct 2026** · Responsable: Edwin Cabezas
+{% endhint %}
+
+La Especificación de Requisitos de Software (ERS) de ColorrectalAI, según la norma ISO/IEC/IEEE 29148-2018, define **27 requisitos**: 16 funcionales (RF) y 11 no funcionales (RNF). Cada uno está trazado a una prioridad MoSCoW, un entregable y un caso de prueba.
 
 Estados del ciclo de vida de un requisito: **especificado → en desarrollo → implementado → verificado → aceptado**. Un requisito solo se marca como verificado cuando su caso de prueba está aprobado.
 
@@ -41,17 +45,6 @@ Estados del ciclo de vida de un requisito: **especificado → en desarrollo → 
 | RNF-019.1 | Mantenibilidad: módulos desacoplados, código documentado y revisado por PR | Should | E08 | CP-16 |
 | RNF-021.1 | Calidad del modelo: umbrales aprobados antes de evaluar; reporte de limitaciones y sesgos | Must | E06 | CP-09 |
 
-## Trazabilidad resumida
+## Casos de prueba
 
-| Componente | Actividad | Evidencia |
-| --- | --- | --- |
-| Datos | Selección y documentación del dataset | Ficha del dataset + licencia |
-| IA | Entrenamiento y evaluación | Modelo + logs + métricas |
-| Software | Implementación web | Repositorio + API + interfaz |
-| Calidad | Pruebas | Casos de prueba + resultados |
-| Reproducibilidad | Documentación | README + versión/tag |
-| Ética | Delimitación académica | Aviso de uso experimental |
-
-{% hint style="info" %}
-**Indicador de alcance:** % de requisitos aceptados. Meta: **100 % de los Must** al cierre del proyecto.
-{% endhint %}
+La ERS (sección 3.3) define los casos de prueba **CP-01 a CP-16**, detallados en el [Plan de pruebas](../ejecucion/pruebas/plan-pruebas.md). La prioridad de cada requisito está en el [Diagrama MoSCoW](moscow.md) y su trazabilidad completa en la [Matriz de trazabilidad](../trazabilidad/matriz-trazabilidad.md).

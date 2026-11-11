@@ -1,5 +1,9 @@
 # Lista de hitos
 
+{% hint style="success" %}
+**Estado: Terminado** · ID: **C-08** · Hito 006 · Entregado: **11 oct 2026** · Responsable: Camilo Mutis
+{% endhint %}
+
 Entregable 2.2 del Plan de Gestión del Cronograma (v1.0, 11 de octubre de 2026). Los hitos son eventos de duración cero que marcan la aceptación o verificación de una fase, decisión o entregable.
 
 * **Obligatorio:** exigido por el curso, por PM² (puerta de fase) o por un entregable E01–E09.

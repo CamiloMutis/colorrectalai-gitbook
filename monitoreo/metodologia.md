@@ -1,6 +1,10 @@
-# Monitoreo y control con TSP
+# Metodología de monitoreo y control (TSP)
 
-Entregable **C-24** (v1.0, 24/10/2026). Define los formatos, plantillas, métricas y herramientas con que el equipo System Force monitorea y controla ColorrectalAI con **Team Software Process (TSP)** entre el 28/09/2026 y el 11/12/2026, para los entregables C-01 a C-30.
+{% hint style="warning" %}
+**Estado: En curso** · ID: **C-24** · Versión: v1.0 (24/10/2026) · Responsable: Camilo Mutis
+{% endhint %}
+
+Define los formatos, plantillas, métricas y herramientas con que el equipo System Force monitorea y controla ColorrectalAI con **Team Software Process (TSP)** entre el 28/09/2026 y el 11/12/2026, para los entregables C-01 a C-30.
 
 ## Fundamentos
 

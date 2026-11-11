@@ -26,7 +26,7 @@
 
 * [ ] Resultados de la ejecución de CP-01 a CP-16 (aprobadas, fallidas, bloqueadas)
 * [ ] Defectos encontrados y su estado
-* [ ] Métricas del producto frente a las metas del [Plan de calidad](../planeacion/calidad.md)
+* [ ] Métricas del producto frente a las metas del [Plan de calidad](../../planeacion/plan-calidad.md)
 * [ ] Métricas del proceso TSP (yield, A/FR, densidad de defectos)
 * [ ] Evaluación según las características de ISO/IEC 25023
 * [ ] Plan de control de calidad y acciones de mejora

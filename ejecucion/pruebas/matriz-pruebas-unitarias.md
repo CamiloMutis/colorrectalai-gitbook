@@ -8,7 +8,7 @@
 
 ## Alcance previsto
 
-Pruebas unitarias de los módulos críticos del código, alineadas con los casos de prueba de sistema [CP-01 a CP-16](pruebas.md):
+Pruebas unitarias de los módulos críticos del código, alineadas con los casos de prueba de sistema [CP-01 a CP-16](plan-pruebas.md):
 
 | Módulo | Qué se prueba | Requisitos |
 | --- | --- | --- |

@@ -47,11 +47,14 @@ El propósito es construir un **artefacto académico reproducible** que permita 
 
 ## Cómo navegar esta documentación
 
-La documentación sigue las fases del ciclo de vida del proyecto:
+La documentación sigue la misma organización del tablero de Trello del proyecto:
 
-* **El proyecto** — formulación: problema, objetivos, antecedentes, marco teórico y legal.
-* **Inicio** — acta de constitución, alcance y equipo.
-* **Planeación** — requisitos, MoSCoW, EDT, hitos, calidad y riesgos.
-* **Ejecución** — pipeline de IA, diseño de interfaz y pruebas.
-* **Monitoreo y control** — TSP, Process Dashboard y valor ganado.
-* **Cierre** — resultados esperados y conclusiones.
+* **Elección del líder del proyecto** — acta de elección y equipo.
+* **Inicio** — formulación del proyecto, acta de inicio y matriz de interesados.
+* **Planeación** — planes de alcance, tiempo, costos, calidad y dirección; EDT, cronograma, hitos, ERS y MoSCoW.
+* **Ejecución** — requisitos, datos, modelo IA, desarrollo del software, integración y pruebas.
+* **Monitoreo y control** — metodología TSP y valor ganado.
+* **Cierre** — acta de cierre, lecciones aprendidas y documentación final.
+* **Trazabilidad** — matriz de trazabilidad y acta de inicio corregida.
+
+Cada página indica arriba su **estado** (Terminado, En curso o Pendiente), su código (C-xx), su responsable y su fecha. Las entregas futuras ya tienen su página con lo que deben contener. El resumen está en [Estado de la documentación](estado.md).
