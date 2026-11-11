@@ -5,7 +5,7 @@ description: Estado de cada documento del proyecto y calendario de las próximas
 # Estado de la documentación
 
 {% hint style="info" %}
-Última actualización: **11/11/2026** · Encargado del GitBook: Camilo Mutis. Las entregas se cargan en Moodle (2026B/GESTIÓN DE PROYECTOS TI/GPT01) a las **23:59** del día indicado; la mayoría requieren Turnitin.
+Última actualización: **11/11/2026** (verificado contra el drive del equipo) · Encargado del GitBook: Camilo Mutis. Las entregas se cargan en Moodle (2026B/GESTIÓN DE PROYECTOS TI/GPT01) a las **23:59** del día indicado; la mayoría requieren Turnitin.
 {% endhint %}
 
 ## Próximas entregas
@@ -35,9 +35,9 @@ description: Estado de cada documento del proyecto y calendario de las próximas
 | Inicio | [Matriz de interesados](inicio/matriz-interesados.md) | C-02 | Terminado |
 | Planeación | [Plan de alcance](planeacion/plan-alcance.md) | C-03 | Terminado |
 | Planeación | [Plan de tiempo](planeacion/plan-tiempo.md) | — | Cubierto por C-06 a C-09 |
-| Planeación | [Plan de costos](planeacion/plan-costos.md) | — | Sin documento en Trello |
+| Planeación | [Plan de costos](planeacion/plan-costos.md) | — | **Falta: no está en Trello ni en el drive** |
 | Planeación | [Plan de gestión de la calidad](planeacion/plan-calidad.md) | C-10 | Terminado |
-| Planeación | [Plan para la dirección del proyecto](planeacion/plan-direccion.md) | C-11 | Pendiente |
+| Planeación | [Plan para la dirección del proyecto](planeacion/plan-direccion.md) | C-11 | Terminado |
 | Planeación | [EDT / WBS](planeacion/edt.md) | C-05 | Terminado |
 | Planeación | [Plan de gestión del cronograma](planeacion/plan-cronograma.md) | C-06 | Terminado |
 | Planeación | [Lista de actividades](planeacion/lista-actividades.md) | C-07 | Terminado |
@@ -48,7 +48,7 @@ description: Estado de cada documento del proyecto y calendario de las próximas
 | Ejecución | [Requisitos](ejecucion/requisitos.md) (backlog y arquitectura) | — | En curso |
 | Ejecución | [Datos](ejecucion/datos.md) | E01 | Pendiente |
 | Ejecución | [Modelo IA](ejecucion/modelo-ia.md) | E02, E03 | Pendiente |
-| Ejecución | [Desarrollo del software](ejecucion/desarrollo-software/README.md) | C-13 a C-18 | En curso |
+| Ejecución | [Desarrollo del software](ejecucion/desarrollo-software/README.md) | C-13 a C-18 | Terminado |
 | Ejecución | [Integración](ejecucion/integracion.md) | E04 | Pendiente |
 | Ejecución | [Pruebas](ejecucion/pruebas/README.md) | C-21 a C-23 | Pendiente |
 | Monitoreo y Control | [Metodología (TSP)](monitoreo/metodologia.md) | C-24 | En curso |

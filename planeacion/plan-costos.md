@@ -1,7 +1,7 @@
 # Plan de costos
 
 {% hint style="warning" %}
-**Estado: Sin documento cargado en Trello** · Hito 009 · Fecha prevista: **18 oct 2026**
+**Estado: Falta el documento** (no está en Trello ni en el drive del equipo) · Hito 009 · Fecha prevista: **18 oct 2026**
 {% endhint %}
 
 Recursos tecnológicos, humanos y de infraestructura necesarios. Criterio del proyecto: **costo cercano a cero**, usando recursos académicos y herramientas gratuitas.

@@ -25,19 +25,19 @@ Entregable 2.1 del Plan de Gestión del Cronograma. Actividades **C-01 a C-30** 
 | C-08 | Lista de hitos | Camilo Mutis | Terminado |
 | C-09 | Cronograma del proyecto | Alejandro Guzmán | Terminado |
 | C-10 | Plan de gestión de la calidad | Juan Fernando Sánchez | Terminado |
-| C-11 | Plan para la dirección del proyecto | Edwin Cabezas | Pendiente |
+| C-11 | Plan para la dirección del proyecto | Edwin Cabezas | Terminado |
 
 ## Ejecución
 
 | ID | Tarea / entregable | Fase TSP | Responsable | Estado |
 | --- | --- | --- | --- | --- |
 | C-12 | Documento de requisitos ISO/IEC/IEEE 29148 | Requisitos | Edwin Cabezas | Terminado |
-| C-13 | Diseño del SW y credenciales de la herramienta de diseño | Diseño | Juan Stevan Loza | En curso |
-| C-14 | Informe de patrones de diseño aplicado | Diseño | Juan Stevan Loza | En curso |
-| C-15 | Arquitectura del sistema | Diseño | Edwin Cabezas | En curso |
-| C-16 | Arquitectura de SW | Diseño | Juan Fernando Sánchez | En curso |
-| C-17 | Justificación de la arquitectura de software | Diseño | Edwin Cabezas | En curso |
-| C-18 | Diseño de base de datos | Diseño | Edwin Cabezas | En curso |
+| C-13 | Diseño del SW y credenciales de la herramienta de diseño | Diseño | Juan Stevan Loza | Terminado |
+| C-14 | Informe de patrones de diseño aplicado | Diseño | Juan Stevan Loza | Terminado |
+| C-15 | Arquitectura del sistema | Diseño | Edwin Cabezas | Terminado |
+| C-16 | Arquitectura de SW | Diseño | Juan Fernando Sánchez | Terminado |
+| C-17 | Justificación de la arquitectura de software | Diseño | Edwin Cabezas | Terminado |
+| C-18 | Diseño de base de datos | Diseño | Edwin Cabezas | Terminado |
 | C-19 | Herramienta GitHub pública actualizada | Construcción | Juan Fernando Sánchez | Pendiente |
 | C-20 | Enlace público de GitBook | Documentación | Camilo Mutis | En curso |
 | C-21 | Matriz de pruebas unitarias | Pruebas unitarias | Camilo Mutis | Pendiente |

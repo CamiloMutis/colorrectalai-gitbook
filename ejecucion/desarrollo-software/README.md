@@ -6,14 +6,14 @@ Diseño y construcción del software: documentos de diseño, interfaz web y repo
 
 | ID | Documento | Responsable | Estado |
 | --- | --- | --- | --- |
-| C-13 | Diseño del SW y credenciales de la herramienta de diseño | Juan Stevan Loza | En curso |
-| C-14 | Informe de patrones de diseño aplicado | Juan Stevan Loza | En curso |
-| C-15 | Arquitectura del sistema | Edwin Cabezas | En curso |
-| C-16 | Arquitectura de SW | Juan Fernando Sánchez | En curso |
-| C-17 | Justificación de la arquitectura de software | Edwin Cabezas | En curso |
-| C-18 | Diseño de base de datos | Edwin Cabezas | En curso |
+| C-13 | Diseño del SW y credenciales de la herramienta de diseño | Juan Stevan Loza | Terminado (v1.0, 25 oct 2026) |
+| C-14 | Informe de patrones de diseño aplicado | Juan Stevan Loza | Terminado (v1.0, 25 oct 2026) |
+| C-15 | Arquitectura del sistema | Edwin Cabezas | Terminado (v1.0, 25 oct 2026) |
+| C-16 | Arquitectura de SW | Juan Fernando Sánchez | Terminado (v1.0, 25 oct 2026) |
+| C-17 | Justificación de la arquitectura de software | Edwin Cabezas | Terminado (v1.0, 25 oct 2026) |
+| C-18 | Diseño de base de datos | Edwin Cabezas | Terminado (v1.0, 25 oct 2026) |
 
-*Cada documento se publicará aquí cuando esté terminado.*
+Los documentos están en la carpeta *03 - Ejecución / Diseño* del drive del equipo.
 
 ## Construcción
 

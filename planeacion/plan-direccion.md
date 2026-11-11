@@ -1,20 +1,20 @@
 # Plan para la dirección del proyecto
 
-{% hint style="warning" %}
-**Estado: Pendiente** · ID: **C-11** · Hito 010 · Fecha prevista: 18 oct 2026 · Responsable: Edwin Cabezas
+{% hint style="success" %}
+**Estado: Terminado** · ID: **C-11** · Hito 010 · Documento: *Plan_Direccion_Proyecto_ColorrectalAI.pdf* (25 oct 2026) · Responsable: Edwin Cabezas
 {% endhint %}
 
 Plan integrador según la Guía PMBOK: reúne los planes subsidiarios y las líneas base de alcance, tiempo, costo y calidad en un solo documento.
 
-## Contenido previsto
+## Contenido
 
-* [ ] Acta de constitución del proyecto
-* [ ] Recursos y roles
-* [ ] Plan de comunicaciones
-* [ ] Gestión de riesgos
-* [ ] Gestión de interesados
-* [ ] Monitoreo y control (alcance, cronograma, calidad, riesgos, cambios)
-* [ ] Plan de cierre (validación, documentación final, lecciones aprendidas, aceptación)
+* Acta de constitución del proyecto
+* Recursos y roles
+* Plan de comunicaciones
+* Gestión de riesgos
+* Gestión de interesados
+* Monitoreo y control (alcance, cronograma, calidad, riesgos, cambios)
+* Plan de cierre (validación, documentación final, lecciones aprendidas, aceptación)
 
 ## Recursos y roles
 
