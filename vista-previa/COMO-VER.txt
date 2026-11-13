@@ -13,24 +13,23 @@ Solo necesitas Git y Python 3.
 
      git pull
 
-2. Encender el servidor local (desde la carpeta raíz del repositorio):
+2. Encender el servidor:
 
-     Windows:        python -m http.server 8800
-     Linux / macOS:  python3 -m http.server 8800
+     Windows:        python servidor.py
+     Linux / macOS:  python3 servidor.py
 
-   Deja esa terminal abierta mientras ves la documentación.
-
-3. Abrir en el navegador:
+   La terminal muestra el enlace y el navegador se abre solo en:
 
      http://localhost:8800/vista-previa/
 
-4. Para apagarlo: en la terminal presiona Ctrl + C.
+   Deja esa terminal abierta mientras ves la documentación.
+
+3. Para apagarlo: en la terminal presiona Ctrl + C.
 
 Notas
 -----
 - Necesitas internet: la página descarga dos librerías (marked y mermaid)
   para mostrar el texto y los diagramas.
 - Si cambias un archivo .md, recarga la página para ver el cambio.
-- Si el puerto 8800 está ocupado, usa otro número (por ejemplo 8801) en los
-  pasos 2 y 3.
+- Si el puerto 8800 está ocupado, usa otro:  python3 servidor.py 8801
 - Es una aproximación: el aspecto final lo da GitBook al publicarlo.

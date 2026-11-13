@@ -58,6 +58,9 @@
   .tabs .panel { padding: 4px 18px 10px; display: none; }
   .tabs .panel.on { display: block; }
   pre.mermaid { background: none; text-align: center; }
+  .embed { margin: 16px 0; }
+  .embed iframe { width: 100%; height: 720px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+  .embed a { font-size: 13px; color: var(--muted); }
   .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 56px; }
   .pager a { flex: 1; border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; text-decoration: none; color: var(--text); }
   .pager a small { display: block; color: var(--muted); }
@@ -136,6 +139,11 @@ function preprocess(md, path) {
   });
   md = md.replace(/{%\s*hint\s+style="(\w+)"\s*%}([\s\S]*?){%\s*endhint\s*%}/g,
     (m, style, inner) => put(`<div class="hint hint-${style}">${render(inner, path)}</div>`));
+  md = md.replace(/{%\s*embed\s+url="(.*?)"\s*%}/g, (m, url) => {
+    const safe = url.replace(/"/g, '&quot;');
+    return put(`<div class="embed"><iframe src="${safe}" loading="lazy" allow="fullscreen"></iframe>` +
+      `<a href="${safe}" target="_blank" rel="noopener">Abrir en una pestaña nueva ↗</a></div>`);
+  });
   md = md.replace(/```mermaid\n([\s\S]*?)```/g, (m, code) => put(`<pre class="mermaid">${code.replace(/</g, '&lt;')}</pre>`));
   return { md, stash, desc };
 }

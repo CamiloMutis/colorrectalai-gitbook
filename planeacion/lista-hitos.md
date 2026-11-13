@@ -10,6 +10,10 @@ Entregable 2.2 del Plan de Gestión del Cronograma (v1.0, 11 de octubre de 2026)
 * **Opcional:** agrega valor si el tiempo y los recursos lo permiten; no bloquea el cierre.
 * Fechas con **(\*)** son estimadas por el equipo y se confirman en la línea base del cronograma.
 
+{% hint style="info" %}
+El documento completo se puede leer al final de esta página, en [Documento completo](#documento-completo).
+{% endhint %}
+
 ## Fase de Inicio
 
 | N.º | Hito | Fecha | Verificación |
@@ -70,3 +74,7 @@ Entregable 2.2 del Plan de Gestión del Cronograma (v1.0, 11 de octubre de 2026)
 | Ejecución — Validación final | 021–025 | 3 | 2 |
 | Cierre | 026–028 | 3 | 0 |
 | **Total** | | **26** | **2** |
+
+## Documento completo
+
+{% embed url="https://docs.google.com/document/d/1YQE6vWYev0fOClXx1h1YeGpgltghe-7JVTN53YgyYE8/preview" %}
