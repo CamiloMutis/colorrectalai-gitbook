@@ -4,15 +4,16 @@
 **Estado: Terminado** · ID: **C-08** · Hito 006 · Entregado: **11 oct 2026** · Responsable: Camilo Mutis
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Entregable 2.2 del Plan de Gestión del Cronograma (v1.0, 11 de octubre de 2026). Los hitos son eventos de duración cero que marcan la aceptación o verificación de una fase, decisión o entregable.
 
 * **Obligatorio:** exigido por el curso, por PM² (puerta de fase) o por un entregable E01–E09.
 * **Opcional:** agrega valor si el tiempo y los recursos lo permiten; no bloquea el cierre.
 * Fechas con **(\*)** son estimadas por el equipo y se confirman en la línea base del cronograma.
 
-{% hint style="info" %}
-El documento completo se puede leer al final de esta página, en [Documento completo](#documento-completo).
-{% endhint %}
 
 ## Fase de Inicio
 
@@ -77,4 +78,4 @@ El documento completo se puede leer al final de esta página, en [Documento comp
 
 ## Documento completo
 
-{% embed url="https://docs.google.com/document/d/1YQE6vWYev0fOClXx1h1YeGpgltghe-7JVTN53YgyYE8/preview" %}
+{% embed url="https://drive.google.com/file/d/1T5hj8L0AevbikO79egw-bt3R83WbPW_-/preview" %}

@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-02** · Hito 003 · Fecha: **4 oct 2026** · Responsable: Edwin Cabezas
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Gestión de los interesados: gobernanza, roles, matriz RASCI y registro de interesados. El documento completo (*Matriz de partes interesadas ColorrectalAI*) está adjunto en Trello, lista **Inicio**.
 
 ## Interesados identificados
@@ -34,3 +38,7 @@ Gestión de los interesados: gobernanza, roles, matriz RASCI y registro de inter
 | Gestor de desarrollo | Juan Fernando Sánchez Hoyos | Vigila la estimación y revisión de las tareas técnicas |
 | Gestor de calidad y proceso | Camilo Steban Mutis Arango | Coordina revisiones y calcula las métricas de calidad |
 | Gestor de soporte | Juan Stevan Loza Gutiérrez | Administra Process Dashboard, Trello y GitHub |
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1SLdaJQSw3ZavYlfBSj9gI0bRzFqMsL5R/preview" %}

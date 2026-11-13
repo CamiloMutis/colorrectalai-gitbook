@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-05** · Hito 005 · Entregado: **11 oct 2026** · Responsables: Juan Fernando Sánchez y Juan Stevan Loza
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Estructura de desglose del trabajo (entregable 1.2 del Plan de Alcance). El documento completo está adjunto en Trello, lista **Planeación**.
 
 ## Desglose por fase
@@ -60,3 +64,7 @@ ColorrectalAI
 | E07 | Pruebas |
 | E08 | Documentación técnica y guía de reproducción |
 | E09 | Aviso de uso experimental |
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1yE_a2kIX5OyaeQcxwdT-D-3aJ7QS31Rp/preview" %}

@@ -163,7 +163,12 @@ function fixLinks(el, path) {
     const href = a.getAttribute('href');
     if (href.startsWith('mailto:')) { a.replaceWith(document.createTextNode(a.textContent)); return; }
     if (/^https?:/.test(href)) { a.target = '_blank'; a.rel = 'noopener'; return; }
-    if (href.startsWith('#')) return;
+    if (href.startsWith('#/')) return;
+    if (href.startsWith('#')) {   // ancla dentro de la misma página
+      a.href = 'javascript:void(0)';
+      a.onclick = () => { const t = document.getElementById(href.slice(1)); if (t) t.scrollIntoView({ behavior: 'smooth' }); };
+      return;
+    }
     const [file, anchor] = href.split('#');
     if (file.endsWith('.md')) a.href = '#/' + resolve(path, file) + (anchor ? '#' + anchor : '');
   });

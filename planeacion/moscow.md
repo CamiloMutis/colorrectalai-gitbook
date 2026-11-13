@@ -4,6 +4,10 @@
 **Estado: Terminado** · Versión: **v2** · Cargado en Trello: 18 oct 2026 · Responsable: System Force
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Los requisitos se priorizaron con la técnica **MoSCoW** a partir del nivel de prioridad de la Matriz de Trazabilidad de Requisitos (v1.0).
 
 ![Diagrama MoSCoW v2 – ColorrectalAI](../.gitbook/assets/moscow-v2.png)
@@ -47,3 +51,7 @@ No funcionales: RNF-013.1 (rendimiento), RNF-015.1 (privacidad), RNF-015.2 (segu
 * W6 — Escalabilidad y alta disponibilidad para uso concurrente en producción
 {% endtab %}
 {% endtabs %}
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1cnR-4R0n-_V1I53SFgOi720O953UhjsI/preview" %}

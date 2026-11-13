@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-03** · Hito 005 · Entregado: **11 oct 2026** · Responsable: Edwin Cabezas
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Define qué incluye y qué no incluye ColorrectalAI y cómo se controlan los cambios. El documento completo (*Plan de Gestión del Alcance ColorrectalAI*) está adjunto en Trello, lista **Planeación**. Sus anexos son la [Matriz de trazabilidad](../trazabilidad/matriz-trazabilidad.md) (1.1) y la [EDT/WBS](edt.md) (1.2).
 
 ## Dentro del alcance
@@ -34,3 +38,7 @@ flowchart LR
 ```
 
 Todo cambio queda en el **Registro de cambios** del libro TSP. Ejemplo: **SC-01**, unificar el umbral de latencia entre la ERS (p95 ≤ 5 s) y el Plan de Calidad (≤ 2 s).
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1bC1uug5yCki3a_6ySHfrjt7eTr8ocZea/preview" %}

@@ -4,6 +4,10 @@
 **Estado: En curso** · ID: **C-24** · Versión: v1.0 (24/10/2026) · Responsable: Camilo Mutis
 {% endhint %}
 
+{% hint style="info" %}
+📄 Los documentos completos se pueden leer dentro de esta página, sin descargarlos, en [Documentos completos](#documentos-completos).
+{% endhint %}
+
 Define los formatos, plantillas, métricas y herramientas con que el equipo System Force monitorea y controla ColorrectalAI con **Team Software Process (TSP)** entre el 28/09/2026 y el 11/12/2026, para los entregables C-01 a C-30.
 
 ## Fundamentos
@@ -66,3 +70,17 @@ Procedimiento: el autor revisa con la lista de verificación → otro integrante
 * **Process Dashboard** — herramienta libre (GNU GPL) para PSP/TSP: registro de tiempo, defectos y tamaño, planeación, valor ganado e informes. Ver [Valor ganado](valor-ganado.md).
 * **Libro de Excel** (`Formatos_Monitoreo_Control_TSP_ColorrectalAI.xlsx`) — consolida los datos del equipo y cubre seguimiento de requisitos, registro de cambios, ejecución de pruebas, riesgos, métricas de producto y listas de verificación.
 * **Trello, GitHub y Moodle** — evidencia del estado de cada tarea y de sus revisiones.
+
+## Documentos completos
+
+### Guía de monitoreo y control TSP v1.0
+
+{% embed url="https://drive.google.com/file/d/1L5OL5rWeNAb0x3b2uXUKVN6DQEn55SVU/preview" %}
+
+### Formatos de monitoreo y control (libro TSP)
+
+{% embed url="https://drive.google.com/file/d/1w8fZNtJjqrRKTsTaQwaHuVGe4KXQzgrV/preview" %}
+
+### Reporte de Process Dashboard
+
+{% embed url="https://drive.google.com/file/d/1OzMNI4ZFfZE5XZ8A3qHe29ieh6JiaBxd/preview" %}

@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-10** · Hito 008 · Entregado: **18 oct 2026** · Versión: v1.0 · Responsable: Juan Fernando Sánchez
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Criterios para comprobar que el sistema y el modelo cumplen los objetivos: funcionamiento del software (carga, procesamiento, detección, interfaz y registro), métricas del modelo, separación correcta de entrenamiento/validación/prueba, tipos de prueba y evaluación reproducible. El documento completo está adjunto en Trello, lista **Planeación**.
 
 Metas y tolerancias de calidad del producto definidas en el Plan de Gestión de la Calidad V1.0. Las mide el Tester (QA) según la frecuencia de cada métrica.
@@ -50,3 +54,7 @@ Frecuencia: al cerrar cada ciclo de entrenamiento.
 | Calibración | Brier Score, ECE | Evaluar confiabilidad de la confianza |
 | Sistema | Latencia, errores, disponibilidad | Evaluar calidad operacional |
 | Usabilidad | SUS u otro instrumento validado | Evaluar experiencia de usuario |
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1frR-5RkktPDEgU-dWlpKBse4Anidj4LP/preview" %}

@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-07** · Hito 006 · Entregado: **11 oct 2026** · Responsable: Alejandro Guzmán
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Entregable 2.1 del Plan de Gestión del Cronograma. Actividades **C-01 a C-30** por fase PMBOK, con su responsable y estado actual (se actualiza cada semana con el plan de tareas TSP).
 
 ## Inicio
@@ -60,3 +64,7 @@ Entregable 2.1 del Plan de Gestión del Cronograma. Actividades **C-01 a C-30** 
 | C-28 | Manual de usuario | Juan Stevan Loza | Pendiente |
 | C-29 | Informe final del proyecto | Edwin Cabezas | Pendiente |
 | C-30 | Enlaces de herramientas de gestión de proyectos y GitHub | Edwin Cabezas | Pendiente |
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1q-a6gqiQw1phhlNWCESVeMeqnp0BCcKg/preview" %}

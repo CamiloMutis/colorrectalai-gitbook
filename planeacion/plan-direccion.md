@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-11** · Hito 010 · Documento: *Plan_Direccion_Proyecto_ColorrectalAI.pdf* (25 oct 2026) · Responsable: Edwin Cabezas
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Plan integrador según la Guía PMBOK: reúne los planes subsidiarios y las líneas base de alcance, tiempo, costo y calidad en un solo documento.
 
 ## Contenido
@@ -45,3 +49,7 @@ Riesgos R01 a R08 del Acta de Constitución (sección 3.8), revisados cada seman
 Otros riesgos a considerar: datos desbalanceados, bajo rendimiento, sobreajuste, retrasos y cambios de requisitos.
 
 Estrategias de respuesta: **Evitar / Aceptar / Reducir / Transferir** (amenazas) y **Explotar / Aceptar / Mejorar / Compartir** (oportunidades).
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1wyc99431PB2bvHre-_JEoSu-Zv_n7Ilc/preview" %}

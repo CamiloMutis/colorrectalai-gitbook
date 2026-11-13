@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-01** · Hito 002 · Versión vigente: **v1.0 corregida (04-10-2026)** · Responsable: System Force
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Acta de Constitución del Proyecto (plantilla PM² OPM2-03 v3.0.1). Fue aprobada por el Propietario del Proyecto (hito 002, 13 sep 2026) y luego ajustada; la [versión corregida](../trazabilidad/acta-inicio-corregida.md) está en Trello. Los riesgos del acta (sección 3.8) están en el [Plan para la dirección del proyecto](../planeacion/plan-direccion.md#riesgos).
 
 ## Declaración del alcance
@@ -62,3 +66,7 @@ El éxito no se mide únicamente por la exactitud del modelo, sino por la capaci
 | E07 | Pruebas | Casos de prueba y resultados de su ejecución. |
 | E08 | Documentación técnica y guía de reproducción | README, configuración del entorno y versión/tag del repositorio. |
 | E09 | Aviso de uso experimental | Advertencia visible en la interfaz de que el resultado es un experimento académico. |
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1Lf02zx9FvX01F_DSoW1Nl9JADzn3MTua/preview" %}

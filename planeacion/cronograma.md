@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-09** · Hito 007 · Entregado: **18 oct 2026** · Responsable: Alejandro Guzmán
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Cronograma en diagrama de Gantt (LucidChart) con dependencias y responsables, aprobado como línea base del tiempo. El PDF está adjunto en Trello, lista **Planeación**.
 
 ## Fechas por entregable
@@ -28,3 +32,7 @@ Cronograma en diagrama de Gantt (LucidChart) con dependencias y responsables, ap
 ## Distribución semanal del esfuerzo
 
 Según Process Dashboard: 244 horas planeadas, 35 horas por semana, con terminación planeada el **12 dic 2026**. Ver [Valor ganado](../monitoreo/valor-ganado.md).
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1X_E1rm8v_CxPJef56xosmWqUxjJEVHZB/preview" %}

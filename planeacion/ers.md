@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-12** · Entregado: **18 oct 2026** · Responsable: Edwin Cabezas
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 La Especificación de Requisitos de Software (ERS) de ColorrectalAI, según la norma ISO/IEC/IEEE 29148-2018, define **27 requisitos**: 16 funcionales (RF) y 11 no funcionales (RNF). Cada uno está trazado a una prioridad MoSCoW, un entregable y un caso de prueba.
 
 Estados del ciclo de vida de un requisito: **especificado → en desarrollo → implementado → verificado → aceptado**. Un requisito solo se marca como verificado cuando su caso de prueba está aprobado.
@@ -48,3 +52,7 @@ Estados del ciclo de vida de un requisito: **especificado → en desarrollo → 
 ## Casos de prueba
 
 La ERS (sección 3.3) define los casos de prueba **CP-01 a CP-16**, detallados en el [Plan de pruebas](../ejecucion/pruebas/plan-pruebas.md). La prioridad de cada requisito está en el [Diagrama MoSCoW](moscow.md) y su trazabilidad completa en la [Matriz de trazabilidad](../trazabilidad/matriz-trazabilidad.md).
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1rd516FzNu8k5FJQCpdyoIpXxmuCNWzgR/preview" %}

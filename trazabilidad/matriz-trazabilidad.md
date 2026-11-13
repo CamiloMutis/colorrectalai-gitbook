@@ -4,6 +4,10 @@
 **Estado: Terminado** · ID: **C-04** · Hito 005 · Versión: **v1.1** · Responsable: System Force
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 Relaciona cada requisito con el objetivo del proyecto, el entregable, el diseño, el desarrollo, la estrategia de pruebas y su prioridad. El archivo completo (*Matriz de Trazabilidad ColorrectalAI v1.1*) está adjunto en Trello, lista **Trazabilidad**.
 
 ## Requisito → objetivo → entregable → prueba
@@ -55,3 +59,7 @@ Estados: **especificado → en desarrollo → implementado → verificado → ac
 {% hint style="info" %}
 **Meta:** 100 % de los requisitos Must aceptados al cierre del proyecto.
 {% endhint %}
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1rM44zrw3_MCgSZfYVYRgXk3PcowgV5Si/preview" %}

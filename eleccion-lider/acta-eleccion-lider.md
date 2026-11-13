@@ -4,6 +4,10 @@
 **Estado: Terminado** · Hito 001 · Fecha: **8 sep 2026** · Responsable: System Force
 {% endhint %}
 
+{% hint style="info" %}
+📄 El documento completo se puede leer dentro de esta página, sin descargarlo, en [Documento completo](#documento-completo).
+{% endhint %}
+
 El equipo **System Force** designó a **Edwin Cabezas Cuero** como Líder de Proyecto TI, quien asume como Director de Proyecto (DP). El acta fue firmada por los cinco integrantes y cargada en Trello junto con la Matriz de Registro de Equipos de TI.
 
 ## Equipo y responsabilidades
@@ -17,3 +21,7 @@ El equipo **System Force** designó a **Edwin Cabezas Cuero** como Líder de Pro
 | Camilo Steban Mutis Arango | Tester (QA) | Verificar que el software cumpla los estándares de calidad antes de llegar al usuario. Encargado del GitBook. |
 
 **Propietario del Proyecto (PP):** Ing. Jair Enrique Castro Sanclemente, docente del curso.
+
+## Documento completo
+
+{% embed url="https://drive.google.com/file/d/1N1nWt3oDfsvqM_fdhaG9161P8GPuTKtU/preview" %}
