@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: ColorrectalAI
+  structure:
+    - type: space
+      key: space-colorrectalai
+      title: ColorrectalAI
+      path: colorrectalai
+      default: true
+      content:
+        directory: ./
+        language: es
