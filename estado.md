@@ -5,7 +5,7 @@ description: Estado de cada documento del proyecto y calendario de las próximas
 # Estado de la documentación
 
 {% hint style="info" %}
-Última actualización: **11/11/2026** (verificado contra el drive del equipo) · Encargado del GitBook: Camilo Mutis. Las entregas se cargan en Moodle (2026B/GESTIÓN DE PROYECTOS TI/GPT01) a las **23:59** del día indicado; la mayoría requieren Turnitin.
+Última actualización: **13/11/2026** (verificado contra el OneDrive del equipo; los documentos entregados se pueden leer completos dentro de cada página) · Encargado del GitBook: Camilo Mutis. Las entregas se cargan en Moodle (2026B/GESTIÓN DE PROYECTOS TI/GPT01) a las **23:59** del día indicado; la mayoría requieren Turnitin.
 {% endhint %}
 
 ## Próximas entregas
